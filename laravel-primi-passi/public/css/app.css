@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 20vh;
+  background: red;
+}
+
+header .container h2 {
+  text-align: center;
+}
+
+main {
+  height: 60vh;
+  background: blue;
+}
+
+main .container h2 {
+  text-align: center;
+}
+
+footer {
+  height: 20vh;
+  background: grey;
+}
+
+footer .container h2 {
+  text-align: center;
+}
+

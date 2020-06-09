@@ -8,18 +8,49 @@
 
 header{
   height: 20vh;
-  background: red;
+  background: green;
   .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     h2{
+      font-size: 37px;
       text-align: center;
+    }
+    ul{
+      height: 100%;
+      width: 60%;
+      margin: 0 auto;
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      line-height: 37px;
+      list-style-type: none;
+      li{
+        font-size: 37px;
+        a{
+            text-decoration: none;
+        }
+      }
     }
   }
 }
 
 main{
-  height: 60vh;
-  background: blue;
+  height: 37vh;
+  background: yellow;
   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .video{
+      iframe{
+        width: 700px;
+        height: 430px;
+      }
+    }
     h2{
       text-align: center;
     }
@@ -27,9 +58,20 @@ main{
 }
 
 footer{
-  height: 20vh;
-  background: grey;
+  height: 43vh;
+  background: red;
   .container{
+    width: 100%;
+    display: flex;
+
+    .maglie{
+      display: flex;
+
+      img{
+        height: auto;
+        width: calc(100% / 4);
+      }
+    }
     h2{
       text-align: center;
     }

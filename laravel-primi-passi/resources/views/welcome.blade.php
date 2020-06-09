@@ -16,6 +16,7 @@
     <body>
       <header>
         <div class="container">
+          <h2>FOOTBALL CARTOON</h2>
           @include('header')
         </div>
       </header>

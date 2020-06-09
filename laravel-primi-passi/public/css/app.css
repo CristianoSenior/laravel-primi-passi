@@ -6,16 +6,55 @@
 
 header {
   height: 20vh;
-  background: red;
+  background: green;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header .container h2 {
+  font-size: 37px;
   text-align: center;
 }
 
+header .container ul {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  line-height: 37px;
+  list-style-type: none;
+}
+
+header .container ul li {
+  font-size: 37px;
+}
+
+header .container ul li a {
+  text-decoration: none;
+}
+
 main {
-  height: 60vh;
-  background: blue;
+  height: 37vh;
+  background: yellow;
+}
+
+main .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container .video iframe {
+  width: 700px;
+  height: 430px;
 }
 
 main .container h2 {
@@ -23,8 +62,22 @@ main .container h2 {
 }
 
 footer {
-  height: 20vh;
-  background: grey;
+  height: 43vh;
+  background: red;
+}
+
+footer .container {
+  width: 100%;
+  display: flex;
+}
+
+footer .container .maglie {
+  display: flex;
+}
+
+footer .container .maglie img {
+  height: auto;
+  width: calc(100% / 4);
 }
 
 footer .container h2 {

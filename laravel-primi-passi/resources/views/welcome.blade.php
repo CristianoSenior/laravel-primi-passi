@@ -14,24 +14,19 @@
 
     </head>
     <body>
-
-
-
-
       <header>
         <div class="container">
-
+          @include('header')
         </div>
       </header>
-
       <main>
         <div class="container">
-          <h2>Ciao sono il {{$test}}</h2>
+          @include('main')
         </div>
       </main>
       <footer>
         <div class="container">
-
+          @include('footer')
         </div>
       </footer>
     </body>
